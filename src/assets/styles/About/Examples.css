@@ -1,0 +1,63 @@
+#community {
+  background-color: #f7f8f8;
+}
+#examples .examples-content h2,
+#examples .examples-content h2 span {
+  text-align: center;
+  font-size: 32px;
+}
+#examples .examples-content h2 span {
+  color: #1292ee;
+}
+#examples .examples-content .features-examples {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+#examples .examples-content .features-examples .feat-ex {
+  text-align: center;
+  max-width: 27.5rem;
+  margin-bottom: 2rem;
+  border: 1px solid rgb(227, 233, 237);
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+}
+#examples .examples-content .features-examples .feat-ex .text {
+  padding: 1rem;
+}
+#examples .examples-content .features-examples .feat-ex h3 {
+  font-size: 21px;
+  color: #273b49e6;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+#examples .examples-content .features-examples .feat-ex p {
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: left;
+  color: rgb(39, 59, 73);
+}
+#examples .examples-content .features-examples .feat-ex img {
+  width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+@media screen and (max-width: 800px) {
+  #examples .examples-content h2,
+  #examples .examples-content h2 span {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #examples .examples-content h2,
+  #examples .examples-content h2 span {
+    font-size: 22px;
+  }
+  #examples .examples-content .features-examples .feat-ex h3 {
+    font-size: 16px;
+  }
+  #examples .examples-content .features-examples .feat-ex p {
+    font-size: 14px;
+  }
+}

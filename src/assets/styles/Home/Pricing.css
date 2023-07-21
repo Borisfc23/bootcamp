@@ -1,0 +1,206 @@
+#prices .text {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+#prices .text h2,
+#prices .text h2 span {
+  font-size: 32px;
+}
+#prices .text h2 span {
+  color: #1292ee;
+}
+#prices .text p {
+  color: #637583;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+#prices .prices-types {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#prices .prices-types .price {
+  box-shadow: 2px 1px 10px 3px rgba(0, 0, 0, 0.15);
+  padding-bottom: 1.5rem;
+  border-radius: 20px;
+  width: 30%;
+  max-width: 450px;
+}
+#prices .prices-types .price .title h3 {
+  text-align: center;
+  font-size: 28px;
+}
+#prices .prices-types .price .title h4 {
+  text-align: center;
+  font-size: 25px;
+}
+#prices .prices-types .price .title h4 {
+  font-weight: 400;
+}
+#prices .prices-types .price .title-b {
+  background-color: #67bcf8;
+  color: #fff;
+}
+#prices .prices-types .price .title-s {
+  background-color: #67dabb;
+  color: #fff;
+}
+#prices .prices-types .price .title {
+  padding: 40px 0;
+  border-top-left-radius: 20px;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 49% 100%, 0 85%);
+  border-top-right-radius: 20px;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  margin-bottom: 1rem;
+}
+#prices .prices-types .price li {
+  list-style: none;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid #ccc;
+  word-wrap: break-word;
+}
+#prices .prices-types .price .title-a {
+  background: #f6b832;
+  color: #fff;
+}
+#prices .prices-types .price .title-a .oferta {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+#prices .prices-types .price .title-a .oferta img {
+  width: 80px;
+}
+#prices .prices-types .price .button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 3rem;
+}
+#prices .prices-types .price .button-b button,
+#prices .prices-types .price .button-s button,
+#prices .prices-types .price .button-a button {
+  background: #fff;
+  padding: 0.5rem;
+  width: 90%;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+#prices .prices-types .price .button-a button {
+  background-color: #fdc344;
+}
+#prices .prices-types .price .button-b button {
+  border: 2px solid #1292ee;
+  color: #1292ee;
+  transition: 0.2s all ease-in-out;
+}
+#prices .prices-types .price .button-a button {
+  border: 2px solid #fdc344;
+  color: rgb(94, 67, 8);
+}
+#prices .prices-types .price .button-s button {
+  border: 2px solid #14b88c;
+  color: #14b88c;
+  transition: 0.2s all ease-in-out;
+}
+#prices .prices-types .price:hover .title-b {
+  background: #1292ee;
+  color: #fff;
+}
+#prices .prices-types .price:hover .title-s {
+  background: #14b88c;
+  color: #fff;
+}
+#prices .prices-types .button-s:hover button {
+  background: #95eed6;
+  color: #444;
+}
+#prices .prices-types .button-b:hover button {
+  background: #8ecdfa;
+  color: #444;
+}
+@media screen and (max-width: 1200px) {
+  #prices .prices-types .price {
+    width: 45%;
+    max-width: 450px;
+  }
+  #prices .prices-types .p-oferta {
+    order: 1;
+    width: 100% !important;
+    margin: 0 3rem 2rem;
+  }
+  #prices .prices-types .p-basic {
+    order: 2;
+  }
+  #prices .prices-types .p-semester {
+    order: 3;
+  }
+}
+@media screen and (max-width: 800px) {
+  #prices .prices-types .p-oferta {
+    margin: 0 0 2rem;
+  }
+  #prices .prices-types .p-basic,
+  #prices .prices-types .p-semester {
+    width: 95%;
+    margin-bottom: 2rem;
+    max-width: 450px;
+  }
+  #prices .text h2,
+  #prices .text h2 span {
+    font-size: 26px;
+  }
+  #prices .prices-types .price .title h3 {
+    font-size: 25px;
+  }
+  #prices .prices-types .price .title h4 {
+    font-size: 23px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #prices .text h2,
+  #prices .text h2 span {
+    font-size: 22px;
+  }
+  #prices .text {
+    margin-bottom: 0rem;
+  }
+  #prices .text p {
+    font-size: 14px;
+    margin-bottom: 3rem;
+  }
+  #prices .prices-types .price {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  #prices .prices-types .price .title h3 {
+    font-size: 21px;
+  }
+  #prices .prices-types .price .title h4 {
+    font-size: 18px;
+  }
+  #prices .prices-types .price li {
+    padding: 1rem 2rem;
+    font-size: 14px;
+  }
+  #prices .prices-types .price .title-a .oferta {
+    top: 0px;
+    right: 0px;
+  }
+  #prices .prices-types .price .title-a .oferta img {
+    width: 60px;
+  }
+  #prices .prices-types .price .button-b button,
+  #prices .prices-types .price .button-s button,
+  #prices .prices-types .price .button-a button {
+    padding: 0.25rem 0.75rem;
+    font-size: 15px;
+  }
+}

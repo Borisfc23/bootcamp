@@ -1,0 +1,66 @@
+#comments {
+  width: 100%;
+  background: #f7f8f8;
+}
+#comments .comment-unit {
+  display: flex;
+  column-gap: 1rem;
+  cursor: pointer;
+  border-top: 5px solid #1292ee !important;
+  background: #fff;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  box-shadow: 2px 1px 10px 3px rgba(0, 0, 0, 0.15);
+}
+#comments .comment-title {
+  text-align: center;
+}
+#comments .comment-title h2 {
+  margin-bottom: 1rem;
+}
+#comments .comment-title h2,
+#comments .comment-title span {
+  font-size: 32px;
+}
+#comments .comment-title span {
+  color: #1292ee;
+}
+#comments .comment-title p {
+  color: #7d8f9b;
+  margin-bottom: 3rem;
+}
+#comments .comment-unit img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+#comments .comment-unit h3 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+#comments .comment-unit p {
+  color: #637583;
+}
+@media screen and (max-width: 800px) {
+  #comments .comment-title h2,
+  #comments .comment-title span {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #comments .comment-title h2,
+  #comments .comment-title span {
+    font-size: 22px;
+  }
+  #comments .comment-title p {
+    font-size: 14px;
+  }
+  #comments .comment-unit h3 {
+    font-size: 16px;
+  }
+  #comments .comment-unit p {
+    font-size: 14px;
+  }
+}

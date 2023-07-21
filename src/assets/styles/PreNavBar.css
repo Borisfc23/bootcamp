@@ -1,0 +1,41 @@
+#prenav {
+  background: #1d2e42;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+#prenav p {
+  font-size: 17px;
+}
+#prenav p:nth-child(1) {
+  margin-right: 10px;
+}
+#prenav p .sp-green {
+  font-weight: 700;
+  color: rgb(58, 228, 183);
+  font-size: 17px;
+  margin: 0;
+}
+#prenav p span {
+  font-size: 16px;
+  color: #c3c6d1;
+  margin: 0 8px;
+  font-weight: 400;
+}
+@media screen and (max-width: 500px) {
+  #prenav p {
+    font-size: 12px;
+  }
+  #prenav p .sp-green {
+    font-size: 13px;
+  }
+  #prenav p span {
+    font-size: 12px;
+  }
+  #prenav p span {
+    margin: 0 4px;
+  }
+}

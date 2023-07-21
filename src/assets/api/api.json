@@ -1,0 +1,977 @@
+[
+  {
+    "id": 1,
+    "type": "article",
+    "image": "../../src/assets/images/blog/a1.webp",
+    "author": "Alvaro Felipe Chávez",
+    "author_img": "../../src/assets/images/blog/aut1.png",
+    "title": "¿Por qué la computación cuántica es tan veloz?",
+    "duration": "8 minutes",
+    "date_upload": "1 hour ago",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nisi optio accusantium repellat possimus quisquam nostrum quia veritatis! Autem, quasi! Amet ipsam nobis natus, doloremque dicta tempora sunt in deserunt!"
+  },
+  {
+    "id": 2,
+    "type": "article",
+    "image": "../../src/assets/images/blog/a2.webp",
+    "author": "Alvaro Felipe Chávez",
+    "author_img": "../../src/assets/images/blog/aut1.png",
+    "title": "¿Qué rayos es .Net? (Explicación sencilla)",
+    "duration": "8 minutes",
+    "date_upload": "3 hour ago",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nisi optio accusantium repellat possimus quisquam nostrum quia veritatis! Autem, quasi! Amet ipsam nobis natus, doloremque dicta tempora sunt in deserunt!"
+  },
+  {
+    "id": 3,
+    "type": "article",
+    "image": "../../src/assets/images/blog/a3.webp",
+    "author": "Alvaro Felipe Chávez",
+    "author_img": "../../src/assets/images/blog/aut1.png",
+    "title": "¿Qué son los lenguajes tipados y no tipados? (Explicación sencilla)",
+    "duration": "9 minutes",
+    "date_upload": "7 hour ago",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nisi optio accusantium repellat possimus quisquam nostrum quia veritatis! Autem, quasi! Amet ipsam nobis natus, doloremque dicta tempora sunt in deserunt!"
+  },
+  {
+    "id": 4,
+    "type": "article",
+    "image": "../../src/assets/images/blog/a4.webp",
+    "author": "Yimmerlys Lopez",
+    "author_img": "../../src/assets/images/blog/aut2.png",
+    "title": "¿Cuándo usar SQL y cuándo NoSQL?",
+    "duration": "8 minutes",
+    "date_upload": "1 days ago",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nisi optio accusantium repellat possimus quisquam nostrum quia veritatis! Autem, quasi! Amet ipsam nobis natus, doloremque dicta tempora sunt in deserunt!"
+  },
+  {
+    "id": 5,
+    "type": "article",
+    "image": "../../src/assets/images/blog/a5.webp",
+    "author": "Alvaro Felipe Chávez",
+    "author_img": "../../src/assets/images/blog/aut1.png",
+    "title": "Caché vs RAM, ¿Cuáles son las diferencias?",
+    "duration": "12 minutes",
+    "date_upload": "2 days ago",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nisi optio accusantium repellat possimus quisquam nostrum quia veritatis! Autem, quasi! Amet ipsam nobis natus, doloremque dicta tempora sunt in deserunt!"
+  },
+  {
+    "id": 6,
+    "type": "article",
+    "image": "../../src/assets/images/blog/a6.webp",
+    "author": "Yimmerlys Lopez",
+    "author_img": "../../src/assets/images/blog/aut2.png",
+    "title": "¿Qué es LO MEJOR y LO PEOR de ser programador?",
+    "duration": "10 minutes",
+    "date_upload": "5 Days ago",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nisi optio accusantium repellat possimus quisquam nostrum quia veritatis! Autem, quasi! Amet ipsam nobis natus, doloremque dicta tempora sunt in deserunt!"
+  },
+  {
+    "id": 7,
+    "type": "article",
+    "image": "../../src/assets/images/blog/a7.webp",
+    "author": "Alvaro Felipe Chávez",
+    "author_img": "../../src/assets/images/blog/aut1.png",
+    "title": "¿Qué es AWS y cuáles son sus servicios más importantes?",
+    "duration": "10 minutes",
+    "date_upload": "1 Month ago",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nisi optio accusantium repellat possimus quisquam nostrum quia veritatis! Autem, quasi! Amet ipsam nobis natus, doloremque dicta tempora sunt in deserunt!"
+  },
+  {
+    "id": 8,
+    "type": "article",
+    "image": "../../src/assets/images/blog/a8.webp",
+    "author": "Alvaro Felipe Chávez",
+    "author_img": "../../src/assets/images/blog/aut1.png",
+    "title": "5 empresas exitosas que nacieron de la nada, ¿cómo lo hicieron?",
+    "duration": "10 minutes",
+    "date_upload": "1 Month ago",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nisi optio accusantium repellat possimus quisquam nostrum quia veritatis! Autem, quasi! Amet ipsam nobis natus, doloremque dicta tempora sunt in deserunt!"
+  },
+  {
+    "id": 9,
+    "type": "article",
+    "image": "../../src/assets/images/blog/a9.webp",
+    "author": "Alvaro Felipe Chávez",
+    "author_img": "../../src/assets/images/blog/aut1.png",
+    "title": "7 tecnologías que murieron ¡pero todos extrañamos!",
+    "duration": "10 minutes",
+    "date_upload": "1 Month ago",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nisi optio accusantium repellat possimus quisquam nostrum quia veritatis! Autem, quasi! Amet ipsam nobis natus, doloremque dicta tempora sunt in deserunt!"
+  },
+  {
+    "id": 10,
+    "type": "course",
+    "image": "../../src/assets/images/courses/c1.webp",
+    "author": "Beto Quiroga",
+    "author_img": "../../src/assets/images/courses/a1.png",
+    "title": "Curso: Git desde cero (2023)",
+    "duration": "6 hours",
+    "level": "Basic",
+    "students": "79",
+    "price": 80,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nisi optio accusantium repellat possimus quisquam nostrum quia veritatis! Autem, quasi! ",
+    "date_upload": "Jul 2023",
+    "topics": [
+      {
+        "title": "1. Introduction to Git",
+        "duration": "10min",
+        "desc": "In this section, we will cover the basics of Git and how to get started.",
+        "subtopics": [
+          "1.1 - What is Git?",
+          "1.2 - Advantages of version control",
+          "1.3 - Installing Git",
+          "1.4 - Initial Git configuration",
+          "1.5 - My first repository",
+          "1.6 - Commit: Saving changes in Git"
+        ]
+      },
+      {
+        "title": "2. Basic Usage of Git",
+        "duration": "15min",
+        "desc": "In this section, we will learn how to work with Git in our local repository.",
+        "subtopics": [
+          "2.1 - Initializing a repository",
+          "2.2 - Adding and modifying files",
+          "2.3 - Making commits",
+          "2.4 - Viewing commit history",
+          "2.5 - Undoing changes with Git",
+          "2.6 - Ignoring unwanted files with .gitignore"
+        ]
+      },
+      {
+        "title": "3. Branching in Git",
+        "duration": "20min",
+        "desc": "In this section, we will explore how to work with branches and merge changes in Git.",
+        "subtopics": [
+          "3.1 - Creating and switching between branches",
+          "3.2 - Merging branches",
+          "3.3 - Resolving merge conflicts",
+          "3.4 - Rebase: Modifying commit history",
+          "3.5 - Branch workflow in a team"
+        ]
+      },
+      {
+        "title": "4. Collaborative Work with Git",
+        "duration": "15min",
+        "desc": "In this section, we will learn how to collaborate with other developers using Git.",
+        "subtopics": [
+          "4.1 - Cloning a remote repository",
+          "4.2 - Working with remote branches",
+          "4.3 - Synchronizing changes with pull and push",
+          "4.4 - Forks and Pull Requests",
+          "4.5 - Resolving conflicts in collaboration"
+        ]
+      },
+      {
+        "title": "5. Tags and Versions in Git",
+        "duration": "10min",
+        "desc": "In this section, we will explore how to use tags to mark important versions in Git.",
+        "subtopics": [
+          "5.1 - Creating and listing tags",
+          "5.2 - Lightweight and annotated tags",
+          "5.3 - Semantic versioning"
+        ]
+      },
+      {
+        "title": "6. Related Tools and Services",
+        "duration": "5min",
+        "desc": "In this section, we will learn about other tools and services that complement the use of Git.",
+        "subtopics": [
+          "6.1 - GitHub, GitLab, Bitbucket",
+          "6.2 - Git GUI (Graphical User Interface)",
+          "6.3 - Integration with IDEs and code editors"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "type": "course",
+    "image": "../../src/assets/images/courses/c2.webp",
+    "author": "Alexys Lozada",
+    "author_img": "../../src/assets/images/courses/a2.png",
+    "title": "Taller: Test Driven Development (TDD)",
+    "duration": "1 hour",
+    "level": "Basic",
+    "students": "840",
+    "price": 20,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nisi optio accusantium repellat possimus quisquam nostrum quia veritatis! Autem, quasi! ",
+    "date_upload": "Jun 2023",
+    "topics": [
+      {
+        "title": "1. Introduction to Test Driven Development (TDD)",
+        "duration": "10min",
+        "desc": "In this section, we will introduce the concept of Test Driven Development and its benefits.",
+        "subtopics": [
+          "1.1 - What is Test Driven Development?",
+          "1.2 - The TDD Red-Green-Refactor cycle",
+          "1.3 - Advantages of Test Driven Development",
+          "1.4 - Test coverage and confidence"
+        ]
+      },
+      {
+        "title": "2. Getting Started with TDD",
+        "duration": "15min",
+        "desc": "In this section, we will dive into the TDD workflow and setting up a TDD environment.",
+        "subtopics": [
+          "2.1 - Understanding the TDD workflow",
+          "2.2 - Setting up testing frameworks",
+          "2.3 - Writing the first test (Red phase)",
+          "2.4 - Implementing the code (Green phase)",
+          "2.5 - Refactoring for improvement",
+          "2.6 - Running tests and ensuring success"
+        ]
+      },
+      {
+        "title": "3. Writing Effective Tests",
+        "duration": "20min",
+        "desc": "In this section, we will learn the best practices for writing effective and maintainable tests.",
+        "subtopics": [
+          "3.1 - Characteristics of good test cases",
+          "3.2 - Test naming conventions",
+          "3.3 - Testing different scenarios and edge cases",
+          "3.4 - Using assertions and expectations",
+          "3.5 - Test data setup and teardown",
+          "3.6 - Mocking and stubbing dependencies"
+        ]
+      },
+      {
+        "title": "4. TDD in Real-World Projects",
+        "duration": "15min",
+        "desc": "In this section, we will explore how TDD is applied in real-world software development.",
+        "subtopics": [
+          "4.1 - TDD in Agile development",
+          "4.2 - TDD in legacy codebases",
+          "4.3 - Overcoming challenges in TDD adoption",
+          "4.4 - TDD and continuous integration",
+          "4.5 - TDD in collaborative projects"
+        ]
+      },
+      {
+        "title": "5. TDD for Different Programming Paradigms",
+        "duration": "10min",
+        "desc": "In this section, we will discuss TDD in the context of various programming paradigms.",
+        "subtopics": [
+          "5.1 - TDD in object-oriented programming",
+          "5.2 - TDD in functional programming",
+          "5.3 - TDD in web development",
+          "5.4 - TDD in mobile app development"
+        ]
+      },
+      {
+        "title": "6. Test-Driven Development Tools and Frameworks",
+        "duration": "5min",
+        "desc": "In this section, we will explore popular tools and frameworks used in TDD.",
+        "subtopics": [
+          "6.1 - Testing frameworks (e.g., JUnit, pytest)",
+          "6.2 - Mocking libraries (e.g., Mockito, Sinon.js)",
+          "6.3 - Continuous integration and testing services"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "type": "course",
+    "image": "../../src/assets/images/courses/c3.webp",
+    "author": "Gerardo Castro",
+    "author_img": "../../src/assets/images/courses/a3.png",
+    "title": "Curso: Fundamentos de AWS 2023",
+    "duration": "7 hours",
+    "level": "Basic",
+    "students": "1320",
+    "price": 70,
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nisi optio accusantium repellat possimus quisquam nostrum quia veritatis! Autem, quasi! ",
+    "date_upload": "May 2023",
+    "topics": [
+      {
+        "title": "1. Introduction to Amazon Web Services (AWS)",
+        "duration": "10min",
+        "desc": "In this section, we will provide an overview of Amazon Web Services and its significance.",
+        "subtopics": [
+          "1.1 - What is AWS?",
+          "1.2 - AWS global infrastructure",
+          "1.3 - AWS service categories",
+          "1.4 - AWS free tier and pricing"
+        ]
+      },
+      {
+        "title": "2. Compute Services",
+        "duration": "15min",
+        "desc": "In this section, we will explore AWS compute services for hosting and running applications.",
+        "subtopics": [
+          "2.1 - Amazon EC2 (Elastic Compute Cloud)",
+          "2.2 - AWS Lambda",
+          "2.3 - Amazon ECS (Elastic Container Service)",
+          "2.4 - AWS Elastic Beanstalk",
+          "2.5 - AWS Fargate",
+          "2.6 - Auto Scaling and Load Balancing"
+        ]
+      },
+      {
+        "title": "3. Storage and Database Services",
+        "duration": "20min",
+        "desc": "In this section, we will cover AWS storage and database services for data management.",
+        "subtopics": [
+          "3.1 - Amazon S3 (Simple Storage Service)",
+          "3.2 - Amazon EBS (Elastic Block Store)",
+          "3.3 - Amazon RDS (Relational Database Service)",
+          "3.4 - Amazon DynamoDB",
+          "3.5 - Amazon Aurora",
+          "3.6 - Amazon Redshift",
+          "3.7 - AWS S3 Glacier"
+        ]
+      },
+      {
+        "title": "4. Networking and Content Delivery",
+        "duration": "15min",
+        "desc": "In this section, we will delve into AWS networking and content delivery services.",
+        "subtopics": [
+          "4.1 - Amazon VPC (Virtual Private Cloud)",
+          "4.2 - AWS Direct Connect",
+          "4.3 - Amazon CloudFront",
+          "4.4 - AWS Route 53 (DNS Service)"
+        ]
+      },
+      {
+        "title": "5. Security and Identity Services",
+        "duration": "10min",
+        "desc": "In this section, we will discuss AWS security and identity management offerings.",
+        "subtopics": [
+          "5.1 - AWS IAM (Identity and Access Management)",
+          "5.2 - Amazon Cognito",
+          "5.3 - AWS KMS (Key Management Service)",
+          "5.4 - AWS Shield and WAF (Web Application Firewall)"
+        ]
+      },
+      {
+        "title": "6. Management and Monitoring",
+        "duration": "5min",
+        "desc": "In this section, we will explore tools for managing and monitoring AWS resources.",
+        "subtopics": [
+          "6.1 - AWS Management Console",
+          "6.2 - AWS CLI (Command Line Interface)",
+          "6.3 - AWS CloudFormation",
+          "6.4 - AWS CloudWatch",
+          "6.5 - AWS X-Ray",
+          "6.6 - AWS Trusted Advisor"
+        ]
+      },
+      {
+        "title": "7. AI, Machine Learning, and Analytics",
+        "duration": "10min",
+        "desc": "In this section, we will introduce AWS services for AI, ML, and data analytics.",
+        "subtopics": [
+          "7.1 - Amazon SageMaker",
+          "7.2 - AWS Glue",
+          "7.3 - Amazon Comprehend",
+          "7.4 - Amazon Rekognition",
+          "7.5 - Amazon Redshift Spectrum",
+          "7.6 - AWS Data Pipeline"
+        ]
+      },
+      {
+        "title": "8. Application Integration",
+        "duration": "5min",
+        "desc": "In this section, we will cover AWS services for application integration.",
+        "subtopics": [
+          "8.1 - Amazon SQS (Simple Queue Service)",
+          "8.2 - Amazon SNS (Simple Notification Service)",
+          "8.3 - AWS Step Functions",
+          "8.4 - Amazon EventBridge"
+        ]
+      },
+      {
+        "title": "9. DevOps and Developer Tools",
+        "duration": "10min",
+        "desc": "In this section, we will explore AWS DevOps and developer-focused services.",
+        "subtopics": [
+          "9.1 - AWS CodeCommit",
+          "9.2 - AWS CodeBuild",
+          "9.3 - AWS CodePipeline",
+          "9.4 - AWS CodeDeploy",
+          "9.5 - AWS CodeStar",
+          "9.6 - AWS Cloud9"
+        ]
+      },
+      {
+        "title": "10. Serverless Architecture",
+        "duration": "5min",
+        "desc": "In this section, we will discuss AWS serverless architecture using AWS Lambda and more.",
+        "subtopics": [
+          "10.1 - Introduction to serverless computing",
+          "10.2 - AWS SAM (Serverless Application Model)",
+          "10.3 - Event-driven architectures"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "type": "course",
+    "image": "../../src/assets/images/courses/c4.webp",
+    "author": "Alvaro Felipe Chávez",
+    "author_img": "../../src/assets/images/blog/aut1.png",
+    "title": "Curso: CSS desde cero",
+    "duration": "9 hours",
+    "level": "Basic",
+    "students": "9536",
+    "price": "Free",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nisi optio accusantium repellat possimus quisquam nostrum quia veritatis! Autem, quasi! ",
+    "date_upload": "Abr 2022",
+    "topics": [
+      {
+        "title": "1. Introduction to CSS",
+        "duration": "10min",
+        "desc": "In this section, we will introduce the basics of CSS and its role in web development.",
+        "subtopics": [
+          "1.1 - What is CSS?",
+          "1.2 - CSS syntax and rules",
+          "1.3 - Linking CSS to HTML",
+          "1.4 - CSS selectors and properties",
+          "1.5 - Inline vs. internal vs. external CSS"
+        ]
+      },
+      {
+        "title": "2. CSS Selectors and Box Model",
+        "duration": "15min",
+        "desc": "In this section, we will explore CSS selectors and the box model for layout and styling.",
+        "subtopics": [
+          "2.1 - Element, class, and ID selectors",
+          "2.2 - Combining and nesting selectors",
+          "2.3 - Pseudo-classes and pseudo-elements",
+          "2.4 - The CSS box model",
+          "2.5 - Margin, padding, border, and content"
+        ]
+      },
+      {
+        "title": "3. CSS Layout and Positioning",
+        "duration": "20min",
+        "desc": "In this section, we will cover CSS layout techniques and positioning elements on the page.",
+        "subtopics": [
+          "3.1 - Display property and layout models (block, inline, flex)",
+          "3.2 - Position property (static, relative, absolute, fixed)",
+          "3.3 - Float and clear",
+          "3.4 - CSS Grid",
+          "3.5 - CSS Flexbox"
+        ]
+      },
+      {
+        "title": "4. Styling Text and Typography",
+        "duration": "15min",
+        "desc": "In this section, we will focus on styling text and typography using CSS.",
+        "subtopics": [
+          "4.1 - Font properties (family, size, weight, style)",
+          "4.2 - Text color and background",
+          "4.3 - Text alignment and indentation",
+          "4.4 - Line height and spacing",
+          "4.5 - Google Fonts and custom fonts"
+        ]
+      },
+      {
+        "title": "5. CSS Transitions and Animations",
+        "duration": "10min",
+        "desc": "In this section, we will learn about CSS transitions and animations to create dynamic effects.",
+        "subtopics": [
+          "5.1 - CSS transition properties",
+          "5.2 - Creating simple animations",
+          "5.3 - Keyframes and animation properties",
+          "5.4 - Transformations (translate, rotate, scale)"
+        ]
+      },
+      {
+        "title": "6. Responsive Web Design with CSS",
+        "duration": "20min",
+        "desc": "In this section, we will explore techniques for creating responsive web designs using CSS.",
+        "subtopics": [
+          "6.1 - Media queries",
+          "6.2 - Responsive units (%, vw, vh, em, rem)",
+          "6.3 - Flexbox for responsive layouts",
+          "6.4 - CSS Grid for responsive designs",
+          "6.5 - Mobile-first vs. Desktop-first approach"
+        ]
+      },
+      {
+        "title": "7. CSS Preprocessors",
+        "duration": "10min",
+        "desc": "In this section, we will introduce CSS preprocessors and their benefits.",
+        "subtopics": [
+          "7.1 - What are CSS preprocessors?",
+          "7.2 - Introduction to Sass/SCSS and Less",
+          "7.3 - Variables and mixins",
+          "7.4 - Nesting and inheritance",
+          "7.5 - Compiling preprocessors to CSS"
+        ]
+      },
+      {
+        "title": "8. CSS Best Practices",
+        "duration": "5min",
+        "desc": "In this section, we will cover best practices for writing clean and maintainable CSS code.",
+        "subtopics": [
+          "8.1 - CSS organization and naming conventions",
+          "8.2 - Avoiding CSS hacks",
+          "8.3 - Efficient use of CSS selectors",
+          "8.4 - Minification and optimization",
+          "8.5 - CSS frameworks and libraries"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "type": "course",
+    "image": "../../src/assets/images/courses/c5.webp",
+    "author": "Ruben Jairo Ushiña",
+    "author_img": "../../src/assets/images/courses/a3.png",
+    "title": "Curso: PHP desde cero",
+    "duration": "8 hours",
+    "level": "Basic",
+    "students": "1790",
+    "price": "69",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nisi optio accusantium repellat possimus quisquam nostrum quia veritatis! Autem, quasi! ",
+    "date_upload": "Dec 2022",
+    "topics": [
+      {
+        "title": "1. Introduction to PHP",
+        "duration": "10min",
+        "desc": "In this section, we will introduce PHP and its role in web development.",
+        "subtopics": [
+          "1.1 - What is PHP?",
+          "1.2 - PHP history and evolution",
+          "1.3 - Setting up a PHP development environment",
+          "1.4 - Embedding PHP in HTML",
+          "1.5 - Basic PHP syntax and variables"
+        ]
+      },
+      {
+        "title": "2. PHP Data Types and Operators",
+        "duration": "15min",
+        "desc": "In this section, we will explore PHP data types and operators for performing operations.",
+        "subtopics": [
+          "2.1 - Scalar data types (int, float, string, bool)",
+          "2.2 - Arrays and associative arrays",
+          "2.3 - PHP operators (arithmetic, comparison, logical)",
+          "2.4 - String manipulation",
+          "2.5 - Type casting and conversion"
+        ]
+      },
+      {
+        "title": "3. Control Structures and Loops",
+        "duration": "20min",
+        "desc": "In this section, we will cover PHP control structures and looping mechanisms.",
+        "subtopics": [
+          "3.1 - If-else statements",
+          "3.2 - Switch statements",
+          "3.3 - While and do-while loops",
+          "3.4 - For and foreach loops",
+          "3.5 - Break and continue statements"
+        ]
+      },
+      {
+        "title": "4. Functions and PHP Built-in Functions",
+        "duration": "15min",
+        "desc": "In this section, we will learn how to create functions and use built-in PHP functions.",
+        "subtopics": [
+          "4.1 - Defining and calling functions",
+          "4.2 - Function arguments and return values",
+          "4.3 - Variable scope (global and local)",
+          "4.4 - Commonly used PHP functions",
+          "4.5 - Working with dates and times"
+        ]
+      },
+      {
+        "title": "5. PHP Forms and Data Handling",
+        "duration": "20min",
+        "desc": "In this section, we will explore how to handle form data and user input in PHP.",
+        "subtopics": [
+          "5.1 - HTML forms and form handling",
+          "5.2 - Using PHP superglobals (POST, GET)",
+          "5.3 - Form validation and sanitization",
+          "5.4 - Uploading files with PHP",
+          "5.5 - Handling cookies and sessions"
+        ]
+      },
+      {
+        "title": "6. PHP and Databases",
+        "duration": "15min",
+        "desc": "In this section, we will connect PHP with databases and perform database operations.",
+        "subtopics": [
+          "6.1 - Introduction to databases (MySQL, PostgreSQL)",
+          "6.2 - Connecting to a database server",
+          "6.3 - Executing SQL queries in PHP",
+          "6.4 - Fetching and displaying data",
+          "6.5 - Prepared statements for security"
+        ]
+      },
+      {
+        "title": "7. PHP Object-Oriented Programming (OOP)",
+        "duration": "20min",
+        "desc": "In this section, we will introduce PHP OOP concepts and how to create classes and objects.",
+        "subtopics": [
+          "7.1 - Classes, objects, and properties",
+          "7.2 - Methods and visibility (public, private, protected)",
+          "7.3 - Constructors and destructors",
+          "7.4 - Inheritance and extending classes",
+          "7.5 - Interfaces and abstract classes"
+        ]
+      },
+      {
+        "title": "8. Error Handling and Exception Handling",
+        "duration": "10min",
+        "desc": "In this section, we will learn how to handle errors and exceptions in PHP.",
+        "subtopics": [
+          "8.1 - Error reporting and debugging",
+          "8.2 - Handling PHP errors and notices",
+          "8.3 - PHP exceptions and try-catch blocks",
+          "8.4 - Custom exception classes"
+        ]
+      },
+      {
+        "title": "9. PHP Security Best Practices",
+        "duration": "15min",
+        "desc": "In this section, we will cover security best practices to protect PHP applications.",
+        "subtopics": [
+          "9.1 - Input validation and data sanitization",
+          "9.2 - SQL injection prevention",
+          "9.3 - Cross-Site Scripting (XSS) protection",
+          "9.4 - Cross-Site Request Forgery (CSRF) prevention",
+          "9.5 - Secure file uploads and downloads"
+        ]
+      },
+      {
+        "title": "10. PHP and Web Applications",
+        "duration": "10min",
+        "desc": "In this section, we will discuss PHP in the context of web applications and frameworks.",
+        "subtopics": [
+          "10.1 - Introduction to PHP frameworks (e.g., Laravel, Symfony)",
+          "10.2 - Using Composer for package management",
+          "10.3 - RESTful APIs with PHP",
+          "10.4 - Templating engines (e.g., Blade, Twig)",
+          "10.5 - PHP deployment and hosting options"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "type": "course",
+    "image": "../../src/assets/images/courses/c6.webp",
+    "author": "Alvaro Felipe Chávez",
+    "author_img": "../../src/assets/images/blog/aut1.png",
+    "title": "Curso: La ruta del desarrollador web",
+    "duration": "3 hours",
+    "level": "Basic",
+    "students": "3269",
+    "price": "Free",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nisi optio accusantium repellat possimus quisquam nostrum quia veritatis! Autem, quasi! ",
+    "date_upload": "Sep 2022",
+    "topics": [
+      {
+        "title": "1. Introduction to Web Development",
+        "duration": "10min",
+        "desc": "In this section, we will introduce the basics of web development and its components.",
+        "subtopics": [
+          "1.1 - What is web development?",
+          "1.2 - Front-end vs. Back-end vs. Full-stack development",
+          "1.3 - Understanding client-server architecture",
+          "1.4 - Web technologies and languages"
+        ]
+      },
+      {
+        "title": "2. Front-End Development",
+        "duration": "20min",
+        "desc": "In this section, we will focus on front-end development for creating the user interface.",
+        "subtopics": [
+          "2.1 - HTML (Hypertext Markup Language)",
+          "2.2 - CSS (Cascading Style Sheets)",
+          "2.3 - JavaScript and ECMAScript",
+          "2.4 - Front-end frameworks (e.g., React, Angular, Vue)",
+          "2.5 - Responsive web design and media queries"
+        ]
+      },
+      {
+        "title": "3. Back-End Development",
+        "duration": "20min",
+        "desc": "In this section, we will dive into back-end development for server-side processing.",
+        "subtopics": [
+          "3.1 - Introduction to back-end languages (e.g., PHP, Node.js, Python, Ruby)",
+          "3.2 - Server-side scripting and processing",
+          "3.3 - Relational and non-relational databases",
+          "3.4 - RESTful APIs and web services",
+          "3.5 - Authentication and security in back-end"
+        ]
+      },
+      {
+        "title": "4. Database Development",
+        "duration": "15min",
+        "desc": "In this section, we will focus on database development for data management.",
+        "subtopics": [
+          "4.1 - Relational databases (e.g., MySQL, PostgreSQL)",
+          "4.2 - Non-relational databases (e.g., MongoDB, Redis)",
+          "4.3 - SQL and NoSQL database management",
+          "4.4 - Database design and normalization",
+          "4.5 - CRUD operations (Create, Read, Update, Delete)"
+        ]
+      },
+      {
+        "title": "5. Web Application Development",
+        "duration": "20min",
+        "desc": "In this section, we will combine front-end and back-end development for web application creation.",
+        "subtopics": [
+          "5.1 - Integrating front-end and back-end",
+          "5.2 - Building dynamic and interactive web applications",
+          "5.3 - User authentication and authorization",
+          "5.4 - Web application deployment",
+          "5.5 - Performance optimization and caching"
+        ]
+      },
+      {
+        "title": "6. Version Control and Collaboration",
+        "duration": "10min",
+        "desc": "In this section, we will cover version control and collaboration tools for web development.",
+        "subtopics": [
+          "6.1 - Introduction to version control systems (e.g., Git)",
+          "6.2 - Working with repositories and branches",
+          "6.3 - Collaborative development with Git",
+          "6.4 - Code review and pull requests",
+          "6.5 - Deploying web applications using version control"
+        ]
+      },
+      {
+        "title": "7. Web Development Tools and DevOps",
+        "duration": "10min",
+        "desc": "In this section, we will explore essential web development tools and DevOps practices.",
+        "subtopics": [
+          "7.1 - Integrated Development Environments (IDEs)",
+          "7.2 - Task runners and build tools (e.g., Gulp, Webpack)",
+          "7.3 - Continuous Integration and Continuous Deployment (CI/CD)",
+          "7.4 - Monitoring and error tracking",
+          "7.5 - Performance testing and optimization"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "type": "course",
+    "image": "../../src/assets/images/courses/c7.webp",
+    "author": "Alexys Lozada",
+    "author_img": "../../src/assets/images/courses/a2.png",
+    "title": "Curso: VIM desde cero ",
+    "duration": "1 hour",
+    "level": "Basic",
+    "students": "3400",
+    "price": "Free",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nisi optio accusantium repellat possimus quisquam nostrum quia veritatis! Autem, quasi! ",
+    "date_upload": "Nov 2022",
+    "topics": [
+      {
+        "title": "1. Introduction to Vim",
+        "duration": "10min",
+        "desc": "In this section, we will introduce the Vim text editor and its unique features.",
+        "subtopics": [
+          "1.1 - What is Vim?",
+          "1.2 - Vim modes (Normal, Insert, Visual)",
+          "1.3 - Basic Vim commands",
+          "1.4 - Navigating and moving within files",
+          "1.5 - Exiting Vim and saving changes"
+        ]
+      },
+      {
+        "title": "2. Vim Editing and Text Manipulation",
+        "duration": "15min",
+        "desc": "In this section, we will explore how to edit and manipulate text in Vim.",
+        "subtopics": [
+          "2.1 - Inserting and replacing text",
+          "2.2 - Copying, cutting, and pasting",
+          "2.3 - Undo and redo",
+          "2.4 - Search and replace",
+          "2.5 - Text objects and selection"
+        ]
+      },
+      {
+        "title": "3. Vim Configuration and Customization",
+        "duration": "20min",
+        "desc": "In this section, we will learn how to configure and customize Vim to suit our preferences.",
+        "subtopics": [
+          "3.1 - Vimrc configuration file",
+          "3.2 - Plugins and extensions",
+          "3.3 - Themes and color schemes",
+          "3.4 - Key mappings and shortcuts",
+          "3.5 - Vim scripting and automation"
+        ]
+      },
+      {
+        "title": "4. Advanced Editing and Productivity",
+        "duration": "20min",
+        "desc": "In this section, we will delve into advanced editing techniques to boost productivity in Vim.",
+        "subtopics": [
+          "4.1 - Multiple buffers and windows",
+          "4.2 - Splitting and tabbing",
+          "4.3 - Registers and yanking",
+          "4.4 - Macros and automation",
+          "4.5 - Navigating large files efficiently"
+        ]
+      },
+      {
+        "title": "5. Vim Plugins and Integration",
+        "duration": "15min",
+        "desc": "In this section, we will explore popular Vim plugins and integrating Vim with other tools.",
+        "subtopics": [
+          "5.1 - Plugin managers (e.g., Vundle, Pathogen, Plug)",
+          "5.2 - Useful Vim plugins (e.g., NERDTree, fzf, airline)",
+          "5.3 - Vim integration with external tools (e.g., Git, tmux)",
+          "5.4 - Using Vim as a text editor in IDEs"
+        ]
+      },
+      {
+        "title": "6. Vim Tips and Tricks",
+        "duration": "10min",
+        "desc": "In this section, we will share some handy Vim tips and tricks for efficient editing.",
+        "subtopics": [
+          "6.1 - Moving faster in Vim",
+          "6.2 - Searching and navigating effectively",
+          "6.3 - Common Vim productivity commands",
+          "6.4 - Workflow optimization in Vim",
+          "6.5 - Vim resources and cheat sheets"
+        ]
+      },
+      {
+        "title": "7. Vim for Specific Use Cases",
+        "duration": "10min",
+        "desc": "In this section, we will explore how Vim can be used for specific tasks and programming languages.",
+        "subtopics": [
+          "7.1 - Vim for programming (e.g., Python, JavaScript)",
+          "7.2 - Vim as a Markdown editor",
+          "7.3 - Vim for LaTeX and document editing",
+          "7.4 - Vim for system administration",
+          "7.5 - Pair programming and Vim"
+        ]
+      },
+      {
+        "title": "8. Vim Workflow and Efficiency",
+        "duration": "10min",
+        "desc": "In this section, we will discuss techniques for improving your Vim workflow and efficiency.",
+        "subtopics": [
+          "8.1 - Mastering Vim motions and commands",
+          "8.2 - Efficiently navigating and editing code",
+          "8.3 - Customizing Vim for speed",
+          "8.4 - Practicing and improving Vim skills",
+          "8.5 - Integrating Vim in your daily workflow"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "type": "course",
+    "image": "../../src/assets/images/courses/c8.webp",
+    "author": "Alexys Lozada",
+    "author_img": "../../src/assets/images/courses/a2.png",
+    "title": "Curso: Introducción a API REST ",
+    "duration": "1 hour",
+    "level": "Basic",
+    "students": "4590",
+    "price": "Free",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nisi optio accusantium repellat possimus quisquam nostrum quia veritatis! Autem, quasi! ",
+    "date_upload": "Jan 2023",
+    "topics": [
+      {
+        "title": "1. Introduction to RESTful APIs",
+        "duration": "10min",
+        "desc": "In this section, we will introduce the concept of RESTful APIs and their importance in modern web development.",
+        "subtopics": [
+          "1.1 - What is a RESTful API?",
+          "1.2 - Principles of REST architecture",
+          "1.3 - HTTP methods (GET, POST, PUT, DELETE)",
+          "1.4 - Resources and URIs",
+          "1.5 - RESTful API benefits and use cases"
+        ]
+      },
+      {
+        "title": "2. RESTful API Design and Best Practices",
+        "duration": "15min",
+        "desc": "In this section, we will cover best practices for designing RESTful APIs.",
+        "subtopics": [
+          "2.1 - Naming conventions for endpoints",
+          "2.2 - Versioning APIs",
+          "2.3 - Using HTTP methods effectively",
+          "2.4 - Handling errors and status codes",
+          "2.5 - Pagination and filtering data"
+        ]
+      },
+      {
+        "title": "3. Request and Response in RESTful APIs",
+        "duration": "15min",
+        "desc": "In this section, we will explore the structure of HTTP requests and responses in RESTful APIs.",
+        "subtopics": [
+          "3.1 - HTTP headers and content negotiation",
+          "3.2 - Request parameters and query strings",
+          "3.3 - Request payloads (POST and PUT data)",
+          "3.4 - Response formats (JSON, XML, etc.)",
+          "3.5 - Handling authentication and security"
+        ]
+      },
+      {
+        "title": "4. RESTful API Authentication and Authorization",
+        "duration": "20min",
+        "desc": "In this section, we will discuss different authentication and authorization methods for securing RESTful APIs.",
+        "subtopics": [
+          "4.1 - Basic Authentication",
+          "4.2 - Token-based authentication (JWT)",
+          "4.3 - OAuth 2.0 and API keys",
+          "4.4 - Role-based access control (RBAC)",
+          "4.5 - Rate limiting and throttling"
+        ]
+      },
+      {
+        "title": "5. Testing and Documentation of RESTful APIs",
+        "duration": "15min",
+        "desc": "In this section, we will cover testing and documenting RESTful APIs for better integration.",
+        "subtopics": [
+          "5.1 - Unit testing API endpoints",
+          "5.2 - Integration testing with Postman or Insomnia",
+          "5.3 - API documentation tools (e.g., Swagger, API Blueprint)",
+          "5.4 - Writing clear and comprehensive API documentation",
+          "5.5 - Keeping API documentation up-to-date"
+        ]
+      },
+      {
+        "title": "6. RESTful API Security",
+        "duration": "20min",
+        "desc": "In this section, we will focus on security measures and practices to protect RESTful APIs.",
+        "subtopics": [
+          "6.1 - Securing against common attacks (e.g., XSS, CSRF)",
+          "6.2 - Input validation and data sanitization",
+          "6.3 - Using HTTPS and SSL certificates",
+          "6.4 - Securing sensitive data",
+          "6.5 - API security audits and monitoring"
+        ]
+      },
+      {
+        "title": "7. RESTful API Versioning and Evolution",
+        "duration": "10min",
+        "desc": "In this section, we will explore versioning and handling changes in RESTful APIs.",
+        "subtopics": [
+          "7.1 - Importance of API versioning",
+          "7.2 - URL-based versioning",
+          "7.3 - Header-based versioning",
+          "7.4 - Handling backward compatibility",
+          "7.5 - Deprecating old API versions"
+        ]
+      },
+      {
+        "title": "8. Building a RESTful API with Framework",
+        "duration": "20min",
+        "desc": "In this section, we will demonstrate building a RESTful API using a popular framework.",
+        "subtopics": [
+          "8.1 - Choosing a framework (e.g., Express, Django, Flask)",
+          "8.2 - Setting up the development environment",
+          "8.3 - Creating API routes and endpoints",
+          "8.4 - Implementing CRUD operations",
+          "8.5 - Testing the API endpoints"
+        ]
+      }
+    ]
+  }
+]

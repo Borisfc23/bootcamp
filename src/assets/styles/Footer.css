@@ -1,0 +1,85 @@
+#footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: #f7f8f8;
+}
+#footer .row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+#footer .row .logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+#footer .row .social-media {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+#footer .row .subscribe input {
+  border: 1px solid #97a5af;
+  padding: 0.35rem 0.45rem;
+  border-radius: 0.25rem;
+  margin-right: 5px;
+}
+#footer .row .subscribe button {
+  background: #1292ee;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+#footer .col {
+  display: flex;
+  flex-direction: column;
+  width: 18%;
+}
+#footer .row h3 {
+  color: #97a5af;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+#footer .row a {
+  text-decoration: none;
+  color: #97a5af;
+  font-size: 14px;
+  margin: 0.25rem 0;
+}
+#footer .row p {
+  text-align: center;
+  display: block;
+  color: #97a5af;
+  margin-top: 1rem;
+}
+@media screen and (max-width: 1200px) {
+  #footer .row {
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+  #footer .row .col-logo {
+    width: 100% !important;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  #footer .col {
+    width: 48%;
+  }
+  #footer .coppyright {
+    width: 100% !important;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  #footer .col {
+    width: 100%;
+    align-items: center;
+  }
+}

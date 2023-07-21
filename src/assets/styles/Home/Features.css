@@ -1,0 +1,106 @@
+#features .features-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#features .features-lists-no {
+  display: flex;
+  flex-wrap: wrap;
+  width: 49%;
+  justify-content: space-around;
+}
+#features .features-lists-with {
+  display: flex;
+  flex-wrap: wrap;
+  width: 49%;
+  justify-content: space-around;
+}
+#features .features-lists-no ul li,
+#features .features-lists-with ul li {
+  list-style-type: none;
+  color: rgb(125, 143, 155);
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#features .features-lists-no ul li svg,
+#features .features-lists-with ul li svg {
+  margin-right: 0.5rem;
+}
+#features .features-lists-no h2 {
+  color: #fd3156;
+  text-align: center;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+#features .features-lists-with h2 {
+  color: #1292ee;
+  text-align: center;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+#features .feature-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+#features .feature-button button {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  line-height: 1.8;
+  background-color: #1292ee;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+#features .feature-button button:hover {
+  background-color: #1687d7;
+}
+@media screen and (max-width: 1000px) {
+  #features .features-lists-no {
+    width: 99%;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+  }
+  #features .features-lists-with {
+    width: 99%;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  #features .features-lists-no,
+  #features .features-lists-with {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  #features .features-lists-no .hidden-svg,
+  #features .features-lists-with .hidden-svg {
+    display: none;
+  }
+  #features .features-lists-no ul li,
+  #features .features-lists-with ul li {
+    font-size: 14px;
+  }
+  #features .features-lists-no h2,
+  #features .features-lists-with h2 {
+    font-size: 20px;
+  }
+  #features .feature-button button {
+    padding: 0.25rem 0.75rem;
+    font-size: 15px;
+  }
+}

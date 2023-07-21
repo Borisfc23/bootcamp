@@ -1,0 +1,5 @@
+https://www.npmjs.com/package/react-multi-carousel
+*TITULO-PARRAFO PADDING 1REM
+*PARRAFO-BOTON MARIGN 2REM
+*ICONO-TEXTO MARIGN 0.5REM
+*TEXTO-TARJETAS 3REM

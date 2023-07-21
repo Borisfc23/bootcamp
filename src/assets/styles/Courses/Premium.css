@@ -1,0 +1,104 @@
+#premium-courses {
+  background-color: #feefcd;
+}
+#premium-courses .premium {
+  display: flex;
+  justify-content: space-around;
+}
+#premium-courses .premium .premium-text {
+  max-width: 29rem;
+}
+#premium-courses .premium .premium-img {
+  width: 35%;
+}
+#premium-courses .premium .premium-text h2 {
+  color: #273b49;
+}
+#premium-courses .premium .premium-text h2,
+#premium-courses .premium .premium-text h2 span {
+  font-size: 32px;
+  margin-bottom: 1rem;
+}
+#premium-courses .premium .premium-text h2 span {
+  color: #df9c0c;
+}
+#premium-courses .premium .premium-text li {
+  list-style: none;
+  color: #5e4308;
+  margin-bottom: 0.5rem;
+}
+#premium-courses .premium .premium-text li svg {
+  margin-right: 0.5rem;
+}
+#premium-courses .premium .premium-text button {
+  padding: 8px 16px;
+  background-color: #f2c25a;
+  border: none;
+  border-radius: 0.35rem;
+  color: #5e4308;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  margin-top: 2rem;
+}
+#premium-courses .premium .premium-img img {
+  width: 100%;
+}
+@media screen and (max-width: 1600px) {
+  #premium-courses .premium {
+    align-items: center;
+  }
+  #premium-courses .premium .premium-img {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  #premium-courses .premium .premium-img {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 800px) {
+  #premium-courses .premium .premium-text h2,
+  #premium-courses .premium .premium-text h2 span {
+    font-size: 26px;
+  }
+  #premium-courses .premium {
+    flex-direction: column;
+  }
+  #premium-courses .premium .premium-text button {
+    margin: 2rem auto 0;
+  }
+  #premium-courses .premium .premium-text {
+    width: 100%;
+    order: 2;
+    max-width: 40rem;
+  }
+  #premium-courses .premium .premium-text {
+    margin: 0 auto;
+  }
+  #premium-courses .premium .premium-img {
+    width: 90%;
+    order: 1;
+  }
+}
+@media screen and (max-width: 500px) {
+  #premium-courses .premium .premium-text li {
+    font-size: 14px;
+  }
+  #premium-courses .premium .premium-text h2,
+  #premium-courses .premium .premium-text h2 span {
+    font-size: 22px;
+    margin-bottom: 1rem;
+  }
+  #premium-courses .premium .premium-text button {
+    font-size: 14px;
+  }
+  #premium-courses .premium .premium-img {
+    width: 100%;
+  }
+  #premium-courses .premium .premium-text button {
+    margin: 1.5rem auto 0;
+  }
+}

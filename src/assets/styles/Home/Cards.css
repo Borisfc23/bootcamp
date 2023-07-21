@@ -1,0 +1,85 @@
+#cards {
+  background: #f7f8f8;
+}
+#cards .cards-text h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 1rem;
+}
+#cards .cards-text span {
+  font-size: 32px;
+  color: #1292ee;
+}
+#cards .cards-text p {
+  color: rgb(125, 143, 155);
+  text-align: center;
+}
+#cards .cards-content {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#cards .cards-content .card {
+  box-shadow: 2px 8px 15px 3px rgba(0, 0, 0, 0.15);
+  padding: 1.2rem 1.5rem;
+  width: 25%;
+  text-align: center;
+  background: #fff;
+  border-radius: 0.5rem;
+}
+#cards .cards-content .card:nth-child(1) {
+  border-top: 5px solid #1292ee;
+}
+#cards .cards-content .card:nth-child(2) {
+  border-top: 5px solid red;
+}
+#cards .cards-content .card:nth-child(3) {
+  border-top: 5px solid #ffd182;
+}
+#cards .cards-content .card img {
+  width: 50px;
+}
+#cards .cards-content .card h3 {
+  margin-bottom: 1rem;
+}
+#cards .cards-content .card p {
+  color: #637583;
+}
+@media screen and (max-width: 800px) {
+  #cards .cards-content {
+    gap: 1rem;
+  }
+  #cards .cards-content .card {
+    width: 50%;
+    min-width: 330px;
+  }
+  #cards .cards-text h2,
+  #cards .cards-text h2 span {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #cards .cards-content .card h3 {
+    font-size: 16px;
+    margin-bottom: 0.75rem;
+  }
+
+  #cards .cards-content .card p {
+    font-size: 14px;
+  }
+  #cards .cards-content .card {
+    width: 80%;
+    min-width: 250px;
+  }
+  #cards .cards-text h2,
+  #cards .cards-text h2 span {
+    font-size: 22px;
+  }
+  #cards .cards-text p {
+    font-size: 14px;
+  }
+  #cards .cards-content {
+    margin-top: 2rem;
+  }
+}

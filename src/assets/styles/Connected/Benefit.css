@@ -1,0 +1,128 @@
+#benefit-banner {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+  transition: 0.3s all ease-in-out;
+  background: #326ed4;
+  position: relative;
+}
+#benefit-banner::before {
+  content: "";
+  position: absolute;
+  right: inherit;
+  height: 100%;
+  top: 0;
+  right: 0;
+  mix-blend-mode: soft-light;
+  background: linear-gradient(233deg, #fff 5%, hsla(0, 0%, 100%, 0.01) 95%);
+  clip-path: polygon(36% 0, 100% 0, 100% 100%, 0 100%);
+  width: 56%;
+  pointer-events: none;
+}
+#benefit-banner .benefit-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+#benefit-banner .benefit-left,
+#benefit-banner .benefit-right {
+  width: 40%;
+}
+#benefit-banner .benefit-right img {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
+#benefit-banner .benefit-left h2 {
+  color: #fdc344;
+  font-size: 32px;
+  font-weight: 900;
+}
+#benefit-banner .benefit-left h3 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+#benefit-banner .benefit-left p {
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  color: #fffffc;
+  font-weight: 400;
+}
+#benefit-banner .benefit-left button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  color: #222c69;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #fdc344;
+  cursor: pointer;
+  display: block;
+  margin: 3rem 0 1rem;
+}
+#benefit-banner .benefit-left span i {
+  color: #fffffc;
+  max-width: 40rem;
+  font-size: 14px;
+  font-weight: 300;
+}
+@media screen and (max-width: 1400px) {
+  #benefit-banner .benefit-left,
+  #benefit-banner .benefit-right {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #benefit-banner .benefit-content {
+    flex-direction: column;
+  }
+  #benefit-banner .benefit-left,
+  #benefit-banner .benefit-right {
+    width: 100%;
+  }
+  #benefit-banner .benefit-left {
+    margin-bottom: 4rem;
+  }
+  #benefit-banner .benefit-right img {
+    width: 60%;
+    min-width: 200px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #benefit-banner .benefit-left h2,
+  #benefit-banner .benefit-left h3 {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #benefit-banner .benefit-left h2,
+  #benefit-banner .benefit-left h3 {
+    font-size: 22px;
+  }
+  #benefit-banner .benefit-left p {
+    font-size: 14px;
+  }
+  #benefit-banner .benefit-left button {
+    margin: 2rem 0 1rem;
+    font-size: 14px;
+  }
+  #benefit-banner .benefit-right img {
+    width: 80%;
+    min-width: 300px;
+  }
+  #benefit-banner .benefit-left span i {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #benefit-banner .benefit-right img {
+    width: 80%;
+    min-width: 280px;
+  }
+}

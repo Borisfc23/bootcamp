@@ -1,0 +1,70 @@
+#pre-footer .pre-background {
+  background: rgb(7, 106, 176);
+}
+#pre-footer {
+  position: relative;
+}
+#pre-footer .pre-background::before {
+  content: "";
+  position: absolute;
+  right: inherit;
+  height: 100%;
+  top: 0;
+  right: 0;
+  mix-blend-mode: soft-light;
+  background: linear-gradient(233deg, #fff 5%, hsla(0, 0%, 100%, 0.01) 95%);
+  clip-path: polygon(100% 0%, 100% 39%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  width: 56%;
+  pointer-events: none;
+}
+#pre-footer .pre-background h2 {
+  font-size: 32px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+#pre-footer .pre-background p {
+  color: #c4e5fd;
+  text-align: center;
+  line-height: 1.8;
+}
+#pre-footer .pre-background div {
+  text-align: center;
+}
+#pre-footer .pre-background div button {
+  text-align: center;
+  display: block;
+  margin: 2rem auto 0.1rem;
+  background-color: #fff;
+  color: #1292ee;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  line-height: 1.8;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+#pre-footer .pre-background div span {
+  color: #c4e5fd;
+  font-size: 12px;
+  text-align: center;
+}
+@media screen and (max-width: 800px) {
+  #pre-footer .pre-background h2 {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #pre-footer .pre-background h2 {
+    font-size: 22px;
+  }
+  #pre-footer .pre-background p {
+    font-size: 14px;
+  }
+  #pre-footer .pre-background div button {
+    padding: 0.25rem 0.75rem;
+    font-size: 15px;
+  }
+}

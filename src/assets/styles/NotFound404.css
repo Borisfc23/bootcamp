@@ -1,0 +1,47 @@
+#error-404 {
+  height: 70vh;
+}
+#error-404 .error-absoluto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+  height: 100%;
+}
+#error-404 .error-absoluto .number {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#error-404 .error-absoluto img {
+  width: 200px;
+  margin: 0 auto;
+  animation: updown 2s infinite;
+}
+#error-404 h2 {
+  font-style: italic;
+  font-size: 120px;
+}
+#error-404 h3 {
+  font-size: 22px;
+}
+@media screen and (max-width: 500px) {
+  #error-404 h2 {
+    font-style: italic;
+    font-size: 90px;
+  }
+  #error-404 h3 {
+    font-size: 20px;
+  }
+}
+@keyframes updown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1rem);
+  }
+}

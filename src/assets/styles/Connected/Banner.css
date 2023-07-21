@@ -1,0 +1,155 @@
+#banner-connected {
+  height: 40vh;
+  width: 100%;
+  background-position: bottom, 100% 0, 0 0;
+  background-repeat: no-repeat, no-repeat, repeat-x;
+  background-size: auto, auto, auto;
+  background-image: url("../../images/connected/banner-background.svg"),
+    url("../../images/connected/banner-lianas.png"),
+    url("../../images/connected/banner-clouds.svg");
+  background-color: #baeaf5;
+  overflow: hidden;
+}
+#banner-connected .banner-content {
+  display: flex;
+  justify-content: space-around;
+}
+#banner-connected .banner-content .content-section-left,
+#banner-connected .banner-content .content-section-right {
+  width: 40%;
+}
+#banner-connected .banner-content .content-section-left h2 span {
+  color: #065289;
+  font-weight: 900;
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+#banner-connected .banner-content .content-section-left h2 {
+  font-size: 26px;
+  color: #065289;
+}
+#banner-connected .banner-content .content-section-left p {
+  color: #637583;
+  margin-bottom: 24px;
+  line-height: 1.8;
+}
+#banner-connected .banner-content .content-section-left button {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  line-height: 1.8;
+  background-color: rgb(227, 59, 70);
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.25rem;
+  margin-top: 20px;
+  cursor: pointer;
+}
+#banner-connected .banner-content .content-section-right img {
+  width: 660px;
+  height: 330px;
+  animation: moveleftright infinite 2.5s;
+  margin-bottom: -21.6rem;
+}
+@media screen and (max-width: 1500px) {
+  #banner-connected .banner-content .content-section-left,
+  #banner-connected .banner-content .content-section-right {
+    width: 49%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #banner-connected {
+    height: 67vh;
+  }
+  #banner-connected .banner-content {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #banner-connected .banner-content .content-section-left,
+  #banner-connected .banner-content .content-section-right {
+    width: 100%;
+    text-align: center;
+  }
+  #banner-connected .banner-content .content-section-left p {
+    max-width: 40rem;
+    display: block;
+    margin: 1rem auto;
+  }
+  #banner-connected .banner-content .content-section-left button {
+    margin: 1rem auto;
+  }
+  #banner-connected .banner-content .content-section-right img {
+    width: 660px;
+    height: 330px;
+    animation: none;
+    margin-bottom: -21.6rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  #banner-connected {
+    height: 60vh;
+  }
+  #banner-connected .banner-content .content-section-right img {
+    margin-bottom: -17rem;
+  }
+  #banner-connected .banner-content .content-section-left h2 span {
+    font-size: 26px;
+  }
+  #banner-connected .banner-content .content-section-left h2 {
+    font-size: 26px;
+  }
+  #banner-connected .banner-content .content-section-right img {
+    height: auto;
+    width: 550px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #banner-connected {
+    height: 57vh;
+  }
+  #banner-connected .banner-content .content-section-right img {
+    height: auto;
+    width: 450px;
+    margin-bottom: -15.1rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  #banner-connected {
+    height: 50vh;
+  }
+  #banner-connected .banner-content .content-section-left h2 span {
+    font-size: 22px;
+  }
+  #banner-connected .banner-content .content-section-left h2 {
+    font-size: 22px;
+  }
+  #banner-connected .banner-content .content-section-left p,
+  #banner-connected .banner-content .content-section-left button {
+    font-size: 14px;
+  }
+  #banner-connected .banner-content .content-section-right img {
+    height: auto;
+    width: 350px;
+    margin-bottom: -12.1rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  #banner-connected {
+    height: 53vh;
+  }
+  #banner-connected .banner-content .content-section-right img {
+    height: auto;
+    width: 280px;
+    margin-bottom: -8.9rem;
+  }
+}
+@keyframes moveleftright {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-1rem);
+  }
+}
