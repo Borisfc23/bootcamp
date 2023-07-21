@@ -4,11 +4,13 @@ const Course = ({ item }) => {
   const numStartExact = Math.random() * 2;
   const numbStarts = Math.floor(numStartExact) + 3;
   const starts = new Array(numbStarts).fill("");
+
   return (
     <div className="course">
       <div className="item-img">
         <NavLink to={`/courses/${item.id}`}>
           <img src={item.image} alt="" />
+          {/* <img src={"./images/courses/c1.webp"} alt="" /> */}
         </NavLink>
         <div className="item-price">
           <p>
