@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import NotFound404 from "./components/Utils/NotFound404";
 import About from "./pages/About";
@@ -12,7 +12,7 @@ import DetailsCourse from "./components/Courses/DetailsCourse";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -23,7 +23,7 @@ function App() {
           <Route path="/connected" element={<Connected />} />
           <Route path="*" element={<NotFound404 />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
