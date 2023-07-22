@@ -1,4 +1,5 @@
 import "./App.css";
+import { Toaster } from "react-hot-toast";
 import { Routes, Route, HashRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import NotFound404 from "./components/Utils/NotFound404";
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       <HashRouter>
+        <Toaster position="top-right" reverseOrder={false} />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

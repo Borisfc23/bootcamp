@@ -1,6 +1,23 @@
+import { useState } from "react";
 import "../../assets/styles/Footer.css";
-
+import toast from "react-hot-toast";
 const Footer = () => {
+  const [correo, setcorreo] = useState("");
+  const [isValid, setIsValid] = useState(false);
+  const handleChage = (e) => {
+    const valor = e.target.value;
+    setcorreo(valor);
+    const regex = /^[a-zA-Z0-9._%+-]+@(gmail|hotmail)\.com$/i;
+    setIsValid(regex.test(valor));
+  };
+  const handleSendSubs = () => {
+    if (isValid) {
+      toast.success("Subscribed email! 💕");
+      setcorreo(correo);
+    } else {
+      toast.error("Wrong email...😥");
+    }
+  };
   return (
     <footer id="footer" className="section-f">
       <div className="row">
@@ -86,8 +103,13 @@ const Footer = () => {
             </svg>
           </div>
           <div className="subscribe">
-            <input type="email" placeholder="Enter your email" />
-            <button>Subscribe</button>
+            <input
+              type="email"
+              placeholder="Enter your email"
+              value={correo}
+              onChange={handleChage}
+            />
+            <button onClick={handleSendSubs}>Subscribe</button>
           </div>
         </div>
         <div className="col">

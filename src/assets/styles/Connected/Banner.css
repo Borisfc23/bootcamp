@@ -88,10 +88,11 @@
 }
 @media screen and (max-width: 800px) {
   #banner-connected {
-    height: 60vh;
+    /* height: 60vh; */
+    height: 37rem;
   }
   #banner-connected .banner-content .content-section-right img {
-    margin-bottom: -17rem;
+    margin-bottom: -16rem;
   }
   #banner-connected .banner-content .content-section-left h2 span {
     font-size: 26px;
@@ -106,17 +107,26 @@
 }
 @media screen and (max-width: 600px) {
   #banner-connected {
-    height: 57vh;
+    /* height: 57vh; */
+    height: 37rem;
   }
   #banner-connected .banner-content .content-section-right img {
     height: auto;
     width: 450px;
-    margin-bottom: -15.1rem;
+    /* margin-bottom: -15.1rem; */
+    margin-bottom: -15.5rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  #banner-connected {
+    /* height: 57vh; */
+    height: 39rem;
   }
 }
 @media screen and (max-width: 500px) {
   #banner-connected {
-    height: 50vh;
+    /* height: 50vh; */
+    height: 31.4rem;
   }
   #banner-connected .banner-content .content-section-left h2 span {
     font-size: 22px;
@@ -131,17 +141,28 @@
   #banner-connected .banner-content .content-section-right img {
     height: auto;
     width: 350px;
-    margin-bottom: -12.1rem;
+    margin-bottom: -12.3rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  #banner-connected {
+    /* height: 50vh; */
+    height: 33rem;
+  }
+  #banner-connected .banner-content .content-section-right img {
+    height: auto;
+    width: 350px;
+    margin-bottom: -10.3rem;
   }
 }
 @media screen and (max-width: 400px) {
   #banner-connected {
-    height: 53vh;
+    height: 30rem;
   }
   #banner-connected .banner-content .content-section-right img {
     height: auto;
     width: 280px;
-    margin-bottom: -8.9rem;
+    margin-bottom: -7.5rem;
   }
 }
 @keyframes moveleftright {
